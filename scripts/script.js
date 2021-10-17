@@ -13,9 +13,6 @@ function playRound(e) {
     let computerSelection = computerPlay();
     let btnSelect = document.querySelector(`button[id="${e.target.id}"]`);
     let playerSelection = btnSelect.id;
-    // console.log("Computer selection is: " + computerSelection);
-    // console.log("Player selection is: " + playerSelection);
-    // console.log(computerScore);
     
     if (playerScore < 5 && computerScore < 5) {
         if (playerSelection == "rock") {
